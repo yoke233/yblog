@@ -1,0 +1,42 @@
+{
+  "name": "yblog",
+  "version": "0.0.1",
+  "description": "yoke's blog",
+  "keywords": [
+    "blog",
+    "Angular.js",
+    "Node.js",
+    "mongoDB",
+    "openshift"
+  ],
+  "author": {
+    "name": "yoke",
+    "email": "yoke2012@gmail.com",
+    "url": "http://weibo.com/yokeb"
+  },
+  "homepage": "https://github.com/yoke233/yblog",
+  "repository": {
+    "type": "git",
+    "url": "http://github.com/yoke233/yblog.git"
+  },
+  "engines": {
+    "node": ">= 0.8.0",
+    "npm": ">= 1.0.0"
+  },
+  "dependencies": {
+    "rrestjs": ">=1.x.x",
+    "mongoskin": ">=0.6.X"
+  },
+  "devDependencies": {
+    "grunt": "~0.4.1",
+    "grunt-contrib-jshint": "~0.6.2",
+    "grunt-contrib-nodeunit": "~0.2.0",
+    "grunt-contrib-uglify": "~0.2.2",
+    "grunt-contrib-concat": "~0.3.0"
+  },
+  "bundleDependencies": [],
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  }
+}

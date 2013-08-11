@@ -1,0 +1,13 @@
+<ul class="list">
+  <li class="list-item" ng-repeat="art in Articles">
+    <span class="hot">
+      2013-07-30
+    </span>
+    <header class="list-item-title">
+      <a ng-href="art_{{ art.age }}"><i class="icon-file-text-alt"></i>{{ art.title }}</a>
+    </header>
+    <div class="list-item-content">
+      {{ art.content }}
+    </div>
+  </li>
+</ul>

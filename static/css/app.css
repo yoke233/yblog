@@ -1,0 +1,176 @@
+/* app css stylesheet */
+/* Put your css in here */
+/*@import url(http://fonts.googleapis.com/css?family=Open+Sans:400,700italic,600italic,700,600,400italic);*/
+/* font-family: 'Open Sans', sans-serif; */
+/* @import url(http://fonts.googleapis.com/css?family=Dosis:400,500,600,700);
+font-family: 'Dosis', sans-serif; */
+
+body {
+    color: #787878;
+    font-size: 13px;
+    font-family: 'Segoe UI', consolas, sans-serif;
+    background: url(../img/body-bg.gif) repeat;
+}
+
+a {
+    color: rgb(35, 138, 204);
+    cursor: pointer;
+}
+
+.header {
+    text-align: center;
+}
+
+.header h1 {
+    margin: 0.2em 0;
+    font-size: 3em;
+    font-weight: 300;
+}
+.header h2 {
+    font-weight: 300;
+    margin: 0;
+    color: #a3a3a3;
+}
+
+#menu {
+    border:none;
+    padding: 1em 0 0;
+    background: url(../img/body-bg.gif) repeat;
+}
+
+.pure-menu-right {
+    float: right;
+    margin-right: 0;
+}
+
+.pure-menu ul li a:hover {
+    background: url(../img/menu-bg-hover.png) repeat;
+}
+
+.pure-menu-1 {
+    border-bottom: 2px solid #9B59B6;
+}
+
+.pure-menu-2 {
+    border-bottom: 2px solid #2ECC71;
+}
+
+.pure-menu-3 {
+    border-bottom: 2px solid #F1C40F;
+}
+
+.pure-menu-4 {
+    border-bottom: 2px solid #3498DB;
+}
+
+.pure-menu-5 {
+    border-bottom: 2px solid #E74C3C;
+}
+
+/* --------------------------
+ * Content Module Styles
+ * --------------------------
+*/
+
+/* The content div is placed as a wrapper around all the docs */
+.content {
+    margin: 0 auto;
+    width: 80%;
+}
+
+.list {
+    list-style: none;
+    padding: 1em 0 0;
+}
+
+.list-item {
+    border-top: 1px dashed #ccc;
+    margin-top: 18px;
+    margin-right: 2px;
+    margin-left: 2px;
+    margin-bottom: 30px;
+}
+
+.list-item-title {
+    font-size: 1.4em;
+    margin: 0.5em 0;
+}
+
+.list-item-title a i {
+    margin-right: 0.5em;
+    text-decoration: none;
+}
+
+.list-item-title a {
+    text-decoration: none;
+}
+
+.list-item-content {
+    margin: 0.8em 0.8em 0.8em 0;
+    text-indent: 2em;
+    font-size: 1.1em;
+}
+
+.list-item-footer {
+    margin-bottom: 0.3em;
+}
+
+.list-item-footer i {
+    margin-left: 0.5em;
+}
+
+.list-item:first-child {
+}
+
+.list-item:last-child {
+}
+
+.list-item .hot {
+    position: relative;
+    float: right;
+    top: -1px;
+    padding: 0.2em;
+    color: #ffffcc;
+    font-size: 14px;
+    background-color: #269bcd;
+}
+
+.list-item .tag {
+    padding: 0.2em 0.5em;
+    color: #39c97f;
+    background-color: rgba(0, 0, 0, 0);
+}
+
+.view-right {
+    margin: 1em 0.5em;
+}
+/* --------------------------
+ * Footer Module Styles
+ * --------------------------
+.legal {
+    font-size: 80%;
+    border: 1px solid #e5e5e5;
+    padding: 0.5em 0;
+    margin: 0 auto;
+    width: 80%;
+}
+
+.legal-license,
+.legal-copyright {
+    margin: 0;
+}
+
+.legal-copyright,
+.legal-links {
+    text-align: right;
+}
+
+.legal-logo {
+    text-align: center;
+}
+
+.l-box {
+    padding: 0.8em;
+}
+
+*/
